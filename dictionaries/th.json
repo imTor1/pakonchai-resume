@@ -1,0 +1,108 @@
+{
+  "home": {
+    "name": "ปกรณ์ชัย",
+    "lastname": "งามเพลินศิลป์",
+    "availability": "พร้อมเริ่มงานทันที",
+    "role": "Full Stack Developer",
+    "description": {
+      "part1": "ผมเป็นนักศึกษาจบใหม่ที่มีความมุ่งมั่นในการพัฒนา",
+      "highlight1": "เว็บแอปพลิเคชันแบบครบวงจร",
+      "part2": " ผ่านประสบการณ์ฝึกงานจริงที่เน้นการเขียน",
+      "highlight2": "โค้ดที่มีระเบียบ อ่านง่าย และง่ายต่อการดูแลรักษา",
+      "part3": " พร้อมนำทักษะเชิงเทคนิคมาผสานกับความกระหายในการเรียนรู้เพื่อเป็น",
+      "highlight3": " Developer ที่มีคุณภาพ"
+    }
+  },
+  "about": {
+    "about": "เกี่ยวกับฉัน",
+    "role": "Full Stack Developer",
+    "location": "based in Thailand",
+    "description": {
+      "part1": "ผม 'ต่อ' ปกรณ์ชัย นักศึกษาจบใหม่มหาวิทยาลัยเทคโนโลยีราชมงคลตะวันออก วิทยาเขตจักรพงษภูวนารถ สาขาวิทยาการคอมพิวเตอร์ ที่หลงใหลในการแก้ปัญหาผ่านการเขียนโค้ด ล่าสุดได้ฝึกประสบการณ์ทำงานในสภาพแวดล้อมจริงในตำแหน่ง Programmer ที่",
+      "highlight1": "บริษัท ยีราฟ จำกัด",
+      "part2": " ทำให้เข้าใจกระบวนการพัฒนาซอฟต์แวร์ในระดับองค์กร และพร้อมจะนำทักษะและความตั้งใจทั้งหมดมาใช้จริงงานในสายงาน",
+      "highlight2": "Developer",
+      "part3": "",
+      "highlight3": ""
+    },
+    "education_title": "ประวัติการศึกษา",
+    "education_list": [
+      {
+        "school": "วิทยาลัยอาชีวศึกษาฉะเชิงเทรา",
+        "period": "2562 — 2565",
+        "faculty": "สาขาคอมพิวเตอร์กราฟิก",
+        "major": "ประกาศนียบัตรวิชาชีพ (ปวช.)",
+        "gpa": "GPA 2.81"
+      },
+      {
+        "school": "มหาวิทยาลัยเทคโนโลยีราชมงคลตะวันออก วิทยาเขตจักรพงษภูวนารถ",
+        "period": "2565 — 2569",
+        "faculty": "คณะบริหารธุรกิจและเทคโนโลยีสารสนเทศ",
+        "major": "สาขาวิชาวิทยาการคอมพิวเตอร์",
+        "gpa": "GPA 3.07"
+      }
+    ]
+  },
+  "skills": {
+    "title": "ความสามารถ",
+    "header": "Tech Stack",
+    "subheader": "เครื่องมือที่ใช้งานเป็นประจำ",
+    "categories": {
+      "languages": "Programming Language",
+      "frameworks": "Frameworks & Libraries",
+      "tools": "Tools & Platforms"
+    }
+  },
+  "experience": {
+    "title": "ประสบการณ์",
+    "header": "ประสบการณ์ & ผลงาน",
+    "subheader": "what I've built",
+    "list": [
+      {
+        "type": "internship",
+        "label": "Internship",
+        "title": "Programmer",
+        "company": "Yeeraf Co., Ltd.",
+        "period": "17 พฤศจิกายน 2568 – 13 มีนาคม 2569",
+        "tags": ["Laravel", "Vue.js", "MySQL"],
+        "details": [
+          "พัฒนา User Interface (UI) ให้รองรับการใช้งานทุกขนาดหน้าจอ (Responsive) และมีดีไซน์ที่ใช้งานง่าย",
+          "ออกแบบและพัฒนาระบบ Backend ด้วย Laravel เพื่อจัดการข้อมูลและเชื่อมต่อกับฐานข้อมูล MySQL อย่างมีประสิทธิภาพ",
+          "เขียน Unit Test ด้วย PHPUnit เพื่อตรวจสอบความถูกต้องของ Business Logic และป้องกันข้อผิดพลาด",
+          "ตรวจสอบ วิเคราะห์ และแก้ไขปัญหาของระบบ (Bug Fixing) เพื่อรักษาเสถียรภาพในการทำงาน",
+          "จัดการ Database Migration เพื่อปรับโครงสร้างฐานข้อมูลให้รองรับการขยายฟีเจอร์ใหม่ๆ"
+        ]
+      },
+      {
+        "type": "project",
+        "label": "Project",
+        "title": "Trademine – Stock Price App",
+        "company": "University Project",
+        "period": "ตุลาคม 2568",
+        "link": "https://github.com/imTor1/trademine",
+        "tags": ["Flutter", "Dart", "Node.js", "Express"],
+        "details": [
+          "ออกแบบ UX/UI ของตัวแอปพลิเคชันด้วย Figma โดยเน้นประสบการณ์การใช้งานที่ลื่นไหล",
+          "วางโครงสร้าง State Management ด้วย Provider และ Bloc เพื่อแยก Business Logic ออกจากส่วนแสดงผล (UI) ให้โค้ดเป็นระเบียบ",
+          "พัฒนาระบบแสดงผลกราฟราคาหุ้นและอินดิเคเตอร์เชิงเทคนิคแบบ Interactive โดยใช้ fl_chart และ syncfusion_flutter_charts"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "การติดต่อ",
+    "header": "มาร่วมงานกัน",
+    "subheader": "and build something great",
+    "description": "หากคุณกำลังมองหา Developer เพื่อไปร่วมทีม สามารถติดต่อผมได้เลยครับ ผมยินดีพูดคุยและเปิดรับทุกโอกาสใหม่ๆ เสมอ",
+    "email": "prakonchai2546@gmail.com",
+    "phone": "0982717697",
+    "cta": "ส่งอีเมลหาผม"
+  },
+  "sidebar": {
+    "home": "หน้าแรก",
+    "about": "เกี่ยวกับฉัน",
+    "skills": "ความสามารถ",
+    "experience": "ประสบการณ์",
+    "contact": "ติดต่อ"
+  }
+}
