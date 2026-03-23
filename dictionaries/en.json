@@ -1,0 +1,117 @@
+{
+  "home": {
+    "name": "Pakonchai",
+    "lastname": "Ngamplernsin",
+    "availability": "Available immediately",
+    "role": "Full Stack Developer",
+    "description": {
+      "part1": "I am a fresh graduate dedicated to developing ",
+      "highlight1": "comprehensive web applications",
+      "part2": ". Through my internship experience, I focus on writing ",
+      "highlight2": "organized, readable, and maintainable code",
+      "part3": ". I am ready to combine my technical skills with a passion for learning to become a ",
+      "highlight3": "high-quality Developer."
+    }
+  },
+  "about": {
+    "about": "About me",
+    "role": "Full Stack Developer",
+    "location": "based in Thailand",
+    "description": {
+      "part1": "I am 'Tor' Pakonchai, a Computer Science graduate from Rajamangala University of Technology Tawan-ok, Chakrabongse Bhuvanarth Campus. I am passionate about solving problems through code and recently completed an internship as a Programmer at ",
+      "highlight1": "Yeeraf Co., Ltd.",
+      "part2": ". This experience gave me a solid understanding of enterprise-level software development processes, and I am eager to apply my skills and dedication to a professional ",
+      "highlight2": "Developer",
+      "part3": "",
+      "highlight3": ""
+    },
+    "education_title": "Education",
+    "education_list": [
+      {
+        "school": "Chachoengsao Vocational College",
+        "period": "2019 — 2022",
+        "faculty": "Computer Graphics",
+        "major": "Vocational Certificate",
+        "gpa": "GPA 2.81"
+      },
+      {
+        "school": "Rajamangala University of Technology Tawan-ok, Chakrabongse Bhuvanarth Campus",
+        "period": "2022 — 2026",
+        "faculty": "Faculty of Business Administration and Information Technology",
+        "major": "Bachelor of Computer Science",
+        "gpa": "GPA 3.07"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "header": "Tech Stack",
+    "subheader": "Tools I work with regularly",
+    "categories": {
+      "languages": "Programming Language",
+      "frameworks": "Frameworks & Libraries",
+      "tools": "Tools & Platforms"
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "header": "Experience & Projects",
+    "subheader": "what I've built",
+    "list": [
+      {
+        "type": "internship",
+        "label": "Internship",
+        "title": "Programmer",
+        "company": "Yeeraf Co., Ltd.",
+        "period": "November 17, 2025 – March 13, 2026",
+        "tags": [
+          "Laravel",
+          "Vue.js",
+          "MySQL"
+        ],
+        "details": [
+          "Developed User Interfaces (UI) with a focus on responsiveness across all devices and intuitive design.",
+          "Architected and developed backend systems using Laravel for efficient data management and MySQL integration.",
+          "Authored unit tests using PHPUnit to ensure business logic accuracy and prevent regressions.",
+          "Identified, analyzed, and resolved system issues (Bug Fixing) to maintain overall stability.",
+          "Managed database migrations to adjust data structures for new feature expansions."
+        ]
+      },
+      {
+        "type": "project",
+        "label": "Project",
+        "title": "Trademine – Stock Price App",
+        "company": "University Project",
+        "period": "October 2025",
+        "link": "https://github.com/imTor1/trademine",
+        "tags": [
+          "Flutter",
+          "Dart",
+          "Node.js",
+          "Express"
+        ],
+        "details": [
+          "Designed the application's UX/UI in Figma, prioritizing a smooth and seamless user experience.",
+          "Implemented state management using Provider and Bloc to cleanly decouple business logic from the UI.",
+          "Developed an interactive visualization system for stock prices and technical indicators using fl_chart and syncfusion_flutter_charts."
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "header": "Let's work together",
+    "subheader": "and build something great",
+    "description": "If you're looking for a Developer to join your team, feel free to reach out. I'm always open to discussing new opportunities.",
+    "email": "prakonchai2546@gmail.com",
+    "phone": "0982717697",
+    "cta": "Send me an email"
+  },
+  "sidebar": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact"
+  }
+}
