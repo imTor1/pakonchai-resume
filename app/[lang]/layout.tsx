@@ -10,6 +10,7 @@ const prompt = Prompt({
   subsets: ["thai", "latin"],
   variable: "--font-prompt",
 });
+type Locale = "en" | "th";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -26,15 +27,16 @@ export default async function RootLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ lang: "en" | "th" }>;
+  params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
-  const dict = await getDictionary(lang);
+  const currentLang = lang as Locale;
+  const dict = await getDictionary(currentLang);
 
   return (
     <html lang={lang} className={`${prompt.variable} ${inter.variable}`}> 
       <body className="flex bg-white dark:bg-neutral-950 font-sans">
-        <Sidebar dict={dict.sidebar} lang={lang} />
+        <Sidebar dict={dict.sidebar} lang={currentLang} />
         <main className="flex-1 pl-[56px] lg:pl-[220px] transition-all duration-200">
           {children}
         </main>
